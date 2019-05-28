@@ -504,8 +504,18 @@ function hideNav() {
 actions.showPageOverlay = showPageOverlay;
 function showPageOverlay() {
   ThisPage.layout.sizePane('south', '100%');
+
+  var tmpEl = ThisPage.getSpot('overlay-frame');
   ThisPage.layout.slideOpen('south');
   ThisPage.layout.sizePane('south', '100%');
+
+  tmpEl.transition('fade', 2)
+  .transition('slide up', 250, function() {
+
+
+  })
+
+
 }
 
 actions.hidePageOverlay = hidePageOverlay;
@@ -516,19 +526,19 @@ function hidePageOverlay() {
 actions.showDetails = showDetails;
 function showDetails(theOptions) {
   var tmpDetails = theOptions.details || false;
-  if( !(tmpDetails)){
-    alert("Could not find speaker details","Error, contact support", "e");
+  if (!(tmpDetails)) {
+    alert("Could not find speaker details", "Error, contact support", "e");
     return;
   }
   tmpDetails = ThisApp.clone(tmpDetails);
-  
-  console.log("showDetails tmpDetails",tmpDetails);
+
+  console.log("showDetails tmpDetails", tmpDetails);
   var tmpBio = 'No bio available';
-  if( tmpDetails.bio && tmpDetails.bio.length > 0){
+  if (tmpDetails.bio && tmpDetails.bio.length > 0) {
     tmpDetails.biography = tmpDetails.bio.join('<br /><br />');
   }
   var tmpTpl = 'content:speaker-details';
-  ThisPage.loadSpot('overlay-content',tmpDetails, tmpTpl);
+  ThisPage.loadSpot('overlay-content', tmpDetails, tmpTpl);
   showPageOverlay();
 };
 
@@ -637,6 +647,7 @@ function openContentPage(theName) {
       tmpNew.html('Content: ' + theName);
     }
   }
+
 
   ThisPage.content.gotoCard(theName);
   ThisPage.resizeLayoutProcess(true);
