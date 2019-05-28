@@ -308,6 +308,13 @@
        var tmpNewCard = {
           "ctl": "cardfull",
           "classes": "orange raised tall",
+          onClick: {
+            run: "action", 
+            action: "showDetails",
+            details: tmpDetails,
+            key: tmpDetails.key,
+            source: "page"
+          },
           "name": tmpDetails.key,
           "header": tmpDetails.name,
           "imageSrc": "./res/" + tmpDetails.img + "",

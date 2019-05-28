@@ -50,6 +50,12 @@ thisPageSpecs.layoutConfig = {
 //~layoutConfig~//~
     //~required//~
 thisPageSpecs.required = {
+  templates: {
+    baseURL: pageBaseURL + 'tpl',
+    map: {
+      "speaker-details": "content:speaker-details"
+    }
+  },
   controls: {
     baseURL: pageBaseURL + 'controls/',
     map: {
@@ -96,6 +102,10 @@ ThisPage.yearIcon = ThisPage.getByAttr$({pageuse: 'yearIcon'});
 ThisPage.yearIconSm = ThisPage.getByAttr$({pageuse: 'yearIconSm'});
 ThisPage.siteMapHeader = $('.site-map-header', ThisPage.getParent$());
 ThisPage.content = ThisPage.parts.center;
+
+// ThisPage.overlayContent = ThisPage.getSpot('overlay-content');
+// ThisPage.overlayActionsSpot = ThisPage.getSpot('overlay-actions');
+// ThisPage.overlayPreActionsSpot = ThisPage.getSpot('overlay-pre-actions');
 
 //--- Start nav closed
 //actions.closeSiteMap(); 
@@ -504,9 +514,21 @@ function hidePageOverlay() {
 };
 
 actions.showDetails = showDetails;
-function showDetails(theParams, theTarget) {
-  var tmpParams = ThisApp.getActionParams(theParams, theTarget, ['name']);
-  var tmpName = tmpParams.name || 'NOT AVAIL';
+function showDetails(theOptions) {
+  var tmpDetails = theOptions.details || false;
+  if( !(tmpDetails)){
+    alert("Could not find speaker details","Error, contact support", "e");
+    return;
+  }
+  tmpDetails = ThisApp.clone(tmpDetails);
+  
+  console.log("showDetails tmpDetails",tmpDetails);
+  var tmpBio = 'No bio available';
+  if( tmpDetails.bio && tmpDetails.bio.length > 0){
+    tmpDetails.biography = tmpDetails.bio.join('<br /><br />');
+  }
+  var tmpTpl = 'content:speaker-details';
+  ThisPage.loadSpot('overlay-content',tmpDetails, tmpTpl);
   showPageOverlay();
 };
 
@@ -606,7 +628,6 @@ function openContentPage(theName) {
         datatype: 'text'
       }).then(function(theReply) {
         tmpNew.html(theReply);
-        ThisPage.resizeLayoutProcess(true);
       }, function(theReply) {
         ThisPage.showLoading(false);
         tmpNew.html("error loading content");

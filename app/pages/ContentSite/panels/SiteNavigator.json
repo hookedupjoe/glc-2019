@@ -21,7 +21,6 @@
         "ctl": "tbl-ol-node",
         "name": "about",
         "details": "About GLC",
-          "type": "page",
         "meta": "<i class='ui icon right arrow'>",
         "type": "page",
         "group": "site-outline",
