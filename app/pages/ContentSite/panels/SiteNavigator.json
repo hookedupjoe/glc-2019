@@ -1,0 +1,261 @@
+{
+  "content": [{
+    "ctl": "tbl-ol-node",
+    "name": "console",
+    "type": "page",
+    "details": "<h3 style='paddintg-top:5px' class='ui header'>GLC 2019</h3>",
+    "classes": "site-outline site-map-header",
+    "level": 3,
+    "group": "site-outline",
+    "item": "",
+    "color": "black",
+    "content": [
+      {
+      "ctl": "tbl-ol-node",
+      "name": "welcome",
+      "details": "Welcome",
+      "level": 2,
+      "color": "black",
+      "content": [
+        {
+        "ctl": "tbl-ol-node",
+        "name": "about",
+        "details": "About GLC",
+          "type": "page",
+        "meta": "<i class='ui icon right arrow'>",
+        "type": "page",
+        "group": "site-outline",
+        "item": "about"
+      },
+        {
+        "ctl": "tbl-ol-node",
+        "name": "sponsors",
+        "details": "Sponsors",
+        "meta": "<i class='ui icon right arrow'>",
+        "type": "page",
+        "group": "site-outline",
+        "item": "sponsors"
+      },
+        {
+        "ctl": "tbl-ol-node",
+        "name": "committees",
+        "details": "Committees",
+        "meta": "<i class='ui icon right arrow'>",
+        "type": "page",
+        "group": "site-outline",
+        "item": "committees"
+      }]
+    },
+
+      {
+        "ctl": "tbl-ol-node",
+        "type": "registration",
+        "name": "registration",
+        "details": "Event Details",
+        "level": 2,
+        "color": "black",
+        "content": [{
+          "ctl": "tbl-ol-node",
+          "name": "agenda",
+          "details": "Agenda",
+          "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+          "group": "site-outline",
+          "item": "agenda",
+          "color": "blue"
+        },
+          {
+            "ctl": "tbl-ol-node",
+            "name": "speakers",
+            "details": "Speakers",
+            "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+            "group": "site-outline",
+            "item": "speakers",
+            "color": "blue"
+          },
+          {
+            "ctl": "tbl-ol-node",
+            "name": "leadership",
+            "details": "Leadership Lunch",
+            "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+            "group": "site-outline",
+            "item": "leadership",
+            "color": "blue"
+          }]
+      },
+      {
+        "ctl": "tbl-ol-node",
+        "type": "activities",
+        "report": "activities",
+        "details": "Activies",
+        "level": 2,
+        "color": "black",
+        "content": [{
+          "ctl": "tbl-ol-node",
+          "name": "guest-act",
+          "details": "Guest Activities",
+          "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+          "group": "site-outline",
+          "item": "guest-act",
+          "color": "blue"
+        },
+          {
+            "ctl": "tbl-ol-node",
+            "name": "ride-drive",
+            "details": "Ride & Drive",
+            "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+            "group": "site-outline",
+            "item": "ride-drive",
+            "color": "blue"
+          },
+          {
+            "ctl": "tbl-ol-node",
+            "name": "networking",
+            "details": "Networking",
+            "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+            "group": "site-outline",
+            "item": "networking",
+            "color": "blue"
+          }]
+      },
+      {
+        "ctl": "tbl-ol-node",
+        "type": "rides",
+        "report": "rides",
+        "details": "Hotel & Dining",
+        "level": 2,
+        "color": "black",
+        "content": [{
+          "ctl": "tbl-ol-node",
+          "name": "hotel",
+          "details": "The Greenbrier",
+          "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+          "group": "site-outline",
+          "item": "hotel",
+          "color": "blue"
+        },
+          {
+            "ctl": "tbl-ol-node",
+            "name": "dining",
+            "details": "Dining",
+            "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+            "group": "site-outline",
+            "item": "dining",
+            "color": "blue"
+          },
+          {
+            "ctl": "tbl-ol-node",
+            "name": "dress",
+            "details": "Dress Code",
+            "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+            "group": "site-outline",
+            "item": "dress",
+            "color": "blue"
+          }]
+      }
+      ,
+      {
+        "ctl": "tbl-ol-node",
+        "type": "charter",
+        "report": "charter",
+        "details": "Travel",
+        "level": 2,
+        "color": "black",
+        "content": [{
+          "ctl": "tbl-ol-node",
+          "name": "travel-package",
+          "details": "Travel Package",
+          "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+          "group": "site-outline",
+          "item": "travel-package",
+          "color": "blue"
+        },
+          {
+            "ctl": "tbl-ol-node",
+            "name": "travel-details",
+            "details": "Other Travel Options",
+            "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+            "group": "site-outline",
+            "item": "travel-details",
+            "color": "blue"
+          }]
+      },
+      {
+        "ctl": "tbl-ol-node",
+        "type": "activities",
+        "report": "activities",
+        "details": "Registration",
+        "level": 2,
+        "color": "black",
+        "content": [
+                    
+
+          {
+          "ctl": "tbl-ol-node",
+          "name": "pricing",
+          "details": "Pricing Details",
+          "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+          "group": "site-outline",
+          "item": "pricing",
+          "color": "blue"
+        }]
+      }
+
+      ]
+  }],
+  "options": {
+    "padding": false,
+    "css": [
+      ".site-outline table.outline > tbody > tr[oluse=\"select\"] {",
+      "  cursor: pointer;",
+      "}",
+      ".site-outline table.outline .ui.table td.active, .site-outline table.outline  .ui.table tr.active { background-color: #2185d0!important; color: white!important; }",
+      ".site-outline table.outline > tbody > tr[oluse=\"collapsable\"] {",
+      "  cursor: pointer;",
+      "}",
+      ".site-outline table.outline > tbody > tr > td.tbl-label {",
+      "  width:20px;",
+      "  color:black;",
+      "  background-color: #eeeeee;",
+      "}",
+      ".site-outline table.outline > tbody > tr.active > td.tbl-label {",
+      "  background-color: #777777;",
+      "  color: white;",
+      "}",
+      ".site-outline table.outline > tbody > tr > td.tbl-icon {",
+      "  width:40px;",
+      "}",
+      ".site-outline table.outline > tbody > tr > td.tbl-icon2 {",
+      "  width:80px;",
+      "}",
+      ".site-outline table.outline > tbody > tr > td.tbl-details {",
+      "  font-weight:bolder;",
+      "  overflow:auto;",
+      "  width:auto; line-height:25px;",
+      "}",
+      ".site-outline table.outline > tbody > tr[type=\"page\"]  {",
+      "  border:solid 1px #2185d0;",
+      "}",
+      ".site-outline table.outline > tbody > tr.active[type=\"page\"] > td.tbl-label {",
+      "  background-color: #2185d0;",
+      "}",
+      ".site-outline table.outline > tbody > tr.active[type=\"app\"] > td.tbl-label {",
+      "  background-color: #2185d0;",
+      "}",
+      ".site-outline table.outline > tbody > tr.active[type=\"resource\"] > td.tbl-label {",
+      "  background-color: #a333c8;",
+      "}"
+    ]
+  }
+}

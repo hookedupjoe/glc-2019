@@ -1,0 +1,347 @@
+{
+	"options": {
+		"prompt": {
+			"submitLabel": "Save Registration Changes",
+			"title": "Registration Details",
+			"submitLabelNew": "Create New Registration",
+			"titleNew": "New Registration"
+		},
+		"padding": true,
+		"readonly": false
+	},
+	"content": [
+	  {
+			"ctl": "divider",
+			"name": "title",
+			"text": "2019 Registration",
+			"size": "medium",
+			"color": "black"
+	    
+	  },
+		{
+			"ctl": "tabs",
+			"name": "tabs",
+			"tabs": [
+				{
+					"label": "General",
+					"name": "tabs-general",
+					"ctl": "tab",
+					"content": [
+						{
+							"ctl": "fieldrow",
+							"label": "Attendee Name",
+							"name": "name-info",
+							"req": true,
+							"items": [
+								{
+									"placeholder": "Prefix",
+									"ctl": "dropdown",
+									"name": "prefix",
+									"list": "Dr.,Mr.,Mrs.,Miss,Ms.",
+									"size": 4
+								},
+								{
+									"placeholder": "First Name",
+									"ctl": "field",
+									"name": "firstname",
+									"size": 6,
+									"req": true
+								},
+								{
+									"placeholder": "Last Name",
+									"ctl": "field",
+									"name": "lastname",
+									"size": 6,
+									"req": true
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "company-info",
+							"items": [
+								{
+									"label": "Title",
+									"ctl": "field",
+									"name": "title",
+									"size": 6,
+									"req": true
+								},
+								{
+									"label": "Company Name",
+									"ctl": "field",
+									"name": "companyname",
+									"size": 10,
+									"req": true
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "member-info",
+							"items": [
+								{
+									"label": "Member Status",
+									"ctl": "dropdown",
+									"name": "member",
+									"list": "Member,Non-member",
+									"onChange": {
+										"run": "showfor",
+										"values": {
+											"": "",
+											"Non-member": [
+												""
+											],
+											"*": [
+												"member_number",
+												"member_number_verified"
+											]
+										}
+									},
+									"size": 5,
+									"req": true
+								},
+								{
+									"label": "Member Number",
+									"ctl": "field",
+									"name": "member_number",
+									"size": 6,
+									"req": true
+								}
+							]
+						},
+							{
+							"ctl": "fieldrow",
+							"name": "spouse-name-row",
+							"items": [
+								{
+									"label": "Spouse / Guest First Name",
+									"ctl": "field",
+									"name": "spousefirstname",
+									"size": 8
+								},
+								{
+									"label": "Spouse / Guest Last Name",
+									"ctl": "field",
+									"name": "spouselastname",
+									"size": 8
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "spouse-info-row",
+							"items": [
+								{
+									"label": "Spouse / Guest E-Mail",
+									"ctl": "field",
+									"name": "spouse_email",
+									"size": 5
+								},
+								{
+									"label": "Spouse / Guest Mobile Phone",
+									"ctl": "field",
+									"name": "spousephonemobile",
+									"size": 3
+								},
+								{
+									"label": "Spouse / Guest Dietary Restrictions",
+									"ctl": "field",
+									"name": "spousediet",
+									"size": 8
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "reg-options-info",
+							"items": [
+								{
+									"label": "First Time",
+									"ctl": "dropdown",
+									"name": "firstconference",
+									"list": "Yes,No",
+									"size": 3,
+									"req": true
+								},
+								{
+									"label": "Years Attended",
+									"ctl": "dropdown",
+									"name": "years_attended",
+									"size": 5,
+									"list": "less than 5,5+,10+,15+,20+,25+,30+,40+"
+								},
+								{
+									"label": "Dietary Restrictions",
+									"ctl": "field",
+									"name": "diet",
+									"size": 8
+								}
+							]
+						}
+					]
+				},
+				{
+					"label": "Contact",
+					"name": "tabs-contact",
+					"ctl": "tab",
+					"content": [
+						{
+							"ctl": "fieldrow",
+							"name": "contact-info-main",
+							"items": [
+								{
+									"label": "E-Mail",
+									"ctl": "field",
+									"name": "email",
+									"size": 6,
+									"req": true
+								},
+								{
+									"label": "Phone",
+									"ctl": "field",
+									"name": "phone",
+									"size": 5,
+									"req": true
+								},
+								{
+									"label": "Mobile",
+									"ctl": "field",
+									"name": "phonemobile",
+									"size": 5
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "assist-info",
+							"items": [
+								{
+									"label": "Assistant Name",
+									"ctl": "field",
+									"name": "assistant_name",
+									"size": 6
+								},
+								{
+									"label": "Phone",
+									"ctl": "field",
+									"name": "assistant_phone",
+									"size": 5
+								},
+								{
+									"label": "E-Mail",
+									"ctl": "field",
+									"name": "assistant_email",
+									"size": 5
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "company-address",
+							"items": [
+								{
+									"label": "Company Address",
+									"ctl": "field",
+									"name": "companyaddress",
+									"size": 12,
+									"req": true
+								},
+								{
+									"label": "Suite / Etc.",
+									"ctl": "field",
+									"name": "companyaddress2",
+									"size": 6
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "company-addr-more",
+							"items": [
+								{
+									"label": "Country",
+									"ctl": "field",
+									"name": "country",
+									"size": 5,
+									"req": true
+								},
+								{
+									"label": "City",
+									"ctl": "field",
+									"name": "city",
+									"size": 5,
+									"req": true
+								},
+								{
+									"label": "State / Prov",
+									"ctl": "field",
+									"name": "state",
+									"size": 4
+								},
+								{
+									"label": "Zipcode",
+									"ctl": "field",
+									"name": "zipcode",
+									"size": 4
+								}
+							]
+						}
+					]
+				},
+				
+				{
+					"label": "Travel",
+					"name": "tabs-travel",
+					"ctl": "tab",
+					"content": []
+				},
+				{
+					"label": "Badge",
+					"name": "tabs-badge",
+					"ctl": "tab",
+					"content": [
+						{
+							"ctl": "fieldrow",
+							"name": "badge-row",
+							"items": [
+								{
+									"label": "Badge Attendee Name",
+									"ctl": "field",
+									"name": "badgename",
+									"size": 12
+								},
+								{
+									"label": "Verified?",
+									"ctl": "checkboxlist",
+									"list": "Verified",
+									"name": "badgename_verified",
+									"size": 4
+								}
+							]
+						},
+						{
+							"ctl": "fieldrow",
+							"name": "spouse-badge-row",
+							"items": [
+								{
+									"label": "Spouse Attendee Name",
+									"ctl": "field",
+									"name": "spousebadgename",
+									"size": 12
+								},
+								{
+									"label": "Verified?",
+									"ctl": "checkboxlist",
+									"list": "Verified",
+									"name": "spousebadgename_verified",
+									"size": 4
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
