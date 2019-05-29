@@ -9,7 +9,7 @@
       name: "body",
       text: ""
     }]
-  }
+  };
 
   var ControlCode = {};
   var defaulitMobileAt = 100;
@@ -21,7 +21,7 @@
     if (tmpOptions.groupName) {
       this.groupName = tmpOptions.groupName;
     }
-  }
+  };
 
   ControlCode.showCard = function(theOptionsOrItemName) {
     var tmpOptions = theOptionsOrItemName || {};
@@ -36,16 +36,16 @@
       item: tmpOptions.item
     };
     console.log("body", this.getSpot('body'));
-    var tmpBody = this.getSpot('body')
+    var tmpBody = this.getSpot('body');
 
     ThisApp.gotoTab(tmpTabOptions);
     tmpBody.transition('fade', 2)
-    .transition('slide right', 250, function() {
+    .transition('fade', 500, function() {
       ThisApp.gotoTab(tmpTabOptions);
-    })
+    });
 
 
-  }
+  };
   ControlCode.gotoCard = ControlCode.showCard;
   ControlCode.openCard = ControlCode.showCard;
 
@@ -70,12 +70,12 @@
     var tmpCardHTML = '<div myspot="' + tmpSpotName + '" appuse="cards" group="' + tmpGroup + '" item="' + tmpItem + '" class="hidden">' + tmpContent + '</div>';
     this.addToSpot('body', tmpCardHTML);
     return this.getSpot(tmpSpotName);
-  }
+  };
 
   ControlCode._onPreInit = function() {
     this.mobileAt = defaulitMobileAt;
     this.groupName = 'ContentPanelTabs';
-  }
+  };
 
 
 
@@ -87,7 +87,7 @@
     } else {
       tmpEl.removeClass('mobile');
     }
-  }
+  };
 
   var ThisControl = {
     specs: ControlSpecs,

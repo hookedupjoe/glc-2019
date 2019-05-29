@@ -372,19 +372,15 @@ ThisPage.resizeLayoutProcess = function(theForce) {
           }
         }
       }
-
-
-
     }
 
     refreshHideWhens();
-
     //--- end layout resize
 
   } catch(ex) {
     console.warn("Error on refresh ", ex);
   }
-}
+};
 
 ThisPage.resizeLayoutToScreen = resizeLayoutToScreen;
 function resizeLayoutToScreen(theForce) {
@@ -629,9 +625,10 @@ function openContentPage(theName) {
         tmpNewInstance.loadToElement(tmpNew);
       }
     } else if (tmpHTMLName) {
-      var tmpURL = pageBaseURL + 'html/' + tmpHTMLName + '.html';
+      var tmpURL = pageBaseURL + 'html/' + tmpHTMLName + '.html?open';
       tmpNew.html('');
       ThisApp.apiCall({
+        cache: false,
         loading: ThisApp.getSpot('ContentSite:center'),
         url: tmpURL,
         method: 'GET',
