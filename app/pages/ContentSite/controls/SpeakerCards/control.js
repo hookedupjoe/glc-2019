@@ -21,9 +21,9 @@
         		"mcelroy"
           ],
           "lunch": [
-            "drake",
             "kiefer",
             "reed",
+            "drake",
             "smiley"
           ],
           "imageLoc": [
@@ -257,40 +257,83 @@
         "size": "large",
         "color": "blue"
       },
+      
       {
         "ctl": "cards",
         "name": "main-cards",
         classes: "centered section ",
+        "slim": true,
+        "link": true,
         attr: {
           "pagespot":"cards-area"
         },
+        "content": [
+          {
+          ctl: "title",
+          size: "medium",
+          color: "blue",
+          classes: "center aligned",
+          text: "Friday, October 11th"
+        },
+        {
+          ctl: "cards",
+        classes: "centered section ",
         "slim": true,
         "link": true,
-        "content": []
+        attr: {
+          "pagespot":"cards-area"
+        },
+          name: "Friday", 
+          content: []
+        },
+        {
+          ctl: "title",
+          size: "medium",
+          color: "blue",
+          classes: "center aligned",
+          text: "Saturday, October 12th"
+        },
+        {
+          ctl: "cards",
+        classes: "centered section ",
+        "slim": true,
+        "link": true,
+        attr: {
+          "pagespot":"cards-area"
+        },
+          name: "Saturday", 
+          content: []
+        }]
       }]
-  }
+  };
 
   var ControlCode = {};
 
   ControlCode._onPreInit = function(){
-    
-  }
+  //  this.setup({type: ""});
+  };
+  
   ControlCode.setup = setup;
   function setup(theOptions) {
     var tmpOptions = theOptions || {};
     
-     this.cardsEntry = this.getItemSpecs('main-cards');
+     
      this.titleEntry = this.getItemSpecs('title');
      var tmpSpkDetails = this.getConfig().options.customData.speakerDetails;
-
+     this.cardsEntry = this.getItemSpecs('main-cards');
+  
      //--- clear existing just in case
-     this.cardsEntry.content = [];
+     //this.cardsEntry.content = [];
      var tmpTitle = "2019 Speakers";
      var tmpOrderNode = 'order';
      if( tmpOptions.type == 'lunch'){
+       this.cardsEntry.ctl = "div"
        tmpOrderNode = 'lunch';
        tmpTitle = "Leadership Lunch Conversations";
+     } else {
+       this.cardsEntry.content = [];
      }
+     
      this.titleEntry = tmpTitle;
      
      for( var iPos in tmpSpkDetails[tmpOrderNode] ){
@@ -308,6 +351,7 @@
        var tmpNewCard = {
           "ctl": "cardfull",
           "classes": "orange raised tall",
+          centered: true,
           onClick: {
             run: "action", 
             action: "showDetails",
@@ -321,8 +365,12 @@
           "meta": "<a>" + tmpDetails.day + "</a>",
           "description": tmpDesc
         };
-       
-       this.cardsEntry.content.push(tmpNewCard);
+      if( tmpOptions.type == 'lunch'){
+       var tmpEntry = this.getItemSpecs(tmpDetails.day);
+       tmpEntry.content.push(tmpNewCard);
+      } else {
+        this.cardsEntry.content.push(tmpNewCard);
+      }
      }
      
     // this.cardsEntry.content = [{

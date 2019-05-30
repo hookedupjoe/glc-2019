@@ -257,7 +257,6 @@
         "size": "large",
         "color": "blue"
       },
-      
       {
         "ctl": "cards",
         "name": "main-cards",
@@ -267,61 +266,31 @@
         },
         "slim": true,
         "link": true,
-        "content": [
-          {
-          ctl: "title",
-          size: "medium",
-          color: "blue",
-          classes: "center aligned",
-          text: "Friday, October 11th"
-        },
-        {
-          ctl: "cards",
-          name: "Friday", 
-          content: []
-        },
-        {
-          ctl: "title",
-          size: "medium",
-          color: "blue",
-          classes: "center aligned",
-          text: "Saturday, October 12th"
-        },
-        {
-          ctl: "cards",
-          name: "Saturday", 
-          content: []
-        }]
+        "content": []
       }]
-  };
+  }
 
   var ControlCode = {};
 
   ControlCode._onPreInit = function(){
-    this.setup({type: ""});
-  };
-  
+    
+  }
   ControlCode.setup = setup;
   function setup(theOptions) {
     var tmpOptions = theOptions || {};
     
-     
+     this.cardsEntry = this.getItemSpecs('main-cards');
      this.titleEntry = this.getItemSpecs('title');
      var tmpSpkDetails = this.getConfig().options.customData.speakerDetails;
-     this.cardsEntry = this.getItemSpecs('main-cards');
-  
+
      //--- clear existing just in case
-     //this.cardsEntry.content = [];
+     this.cardsEntry.content = [];
      var tmpTitle = "2019 Speakers";
      var tmpOrderNode = 'order';
      if( tmpOptions.type == 'lunch'){
-       this.cardsEntry.ctl = "div"
        tmpOrderNode = 'lunch';
        tmpTitle = "Leadership Lunch Conversations";
-     } else {
-       this.cardsEntry.content = [];
      }
-     
      this.titleEntry = tmpTitle;
      
      for( var iPos in tmpSpkDetails[tmpOrderNode] ){
@@ -352,12 +321,8 @@
           "meta": "<a>" + tmpDetails.day + "</a>",
           "description": tmpDesc
         };
-      if( tmpOptions.type == 'lunch'){
-       var tmpEntry = this.getItemSpecs(tmpDetails.day);
-       tmpEntry.content.push(tmpNewCard);
-      } else {
-        this.cardsEntry.content.push(tmpNewCard);
-      }
+       
+       this.cardsEntry.content.push(tmpNewCard);
      }
      
     // this.cardsEntry.content = [{
