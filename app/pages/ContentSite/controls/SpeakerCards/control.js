@@ -89,7 +89,7 @@
             "keese": {
               "key": "keese",
               "name": "Stephan Keese",
-              "org": "Roland Berger. LLC",
+              "org": "Roland Berger, LLC",
               "title": "Senior Partner ",
               "img": "keese.jpg",
               "bio": [
@@ -133,20 +133,20 @@
             "mcelroy": {
               "key": "mcelroy",
               "name": "John McElroy",
-              "org": "",
-              "title": "Conference Moderator, Host of Autoline",
+              "org": "Conference Moderator",
+              "title": "Host of Autoline",
               "img": "mcelroy.jpg",
               "bio": [
-                "John McElroy is the host of &#147Autoline Daily&#148 the first industry webcast of industry news and analysis. He is also the host of the television program &#147Autoline This Week,&#148 an Emmy Award-winning, weekly half-hour discussion program featuring top automotive executives and journalists. McElroy also hosts &#147Autoline After Hours,&#148 the first regularly scheduled live webcast about the industry. The shows can be seen online at www.autolinedetroit.tv  McElroy also broadcasts five radio segments daily on WWJ Newsradio 950, the CBS affiliate in Detroit. He writes a monthly op-ed article for Ward&#146s Auto World.",
+                "John McElroy is the host of &#147Autoline Daily&#148 the first industry webcast of industry news and analysis. He is also the host of the television program &#147Autoline This Week,&#148 an Emmy Award-winning, weekly half-hour discussion program featuring top automotive executives and journalists. McElroy also hosts &#147Autoline After Hours,&#148 the first regularly scheduled live webcast about the industry. The shows can be seen online at <a class=\"ui link\" href=\"www.autolinedetroit.tv\" target=\"_blank\">www.autolinedetroit.tv</a>.  McElroy also broadcasts five radio segments daily on WWJ Newsradio 950, the CBS affiliate in Detroit. He writes a monthly op-ed article for Ward&#146s Auto World.",
                 "His past experience includes five years as Detroit Editor for Road & Track, and as the American correspondent for World Cars, which was published by the Automotive Club of Italy. He was also invited to write the annual automotive entry for the Encyclopedia Britannica Yearbook. He spent most of his career at the trade magazine Automotive Industries where he ultimately rose to Editorial Director. McElroy was inducted into the Michigan Journalism Hall of Fame in 2018."
               ],
               "day": "Friday"
             },
             "murphy": {
               "key": "murphy",
-              "name": "John J. Murphy, CPA",
+              "name": "John J. Murphy, CFA",
               "org": "Bank of America Merrill Lynch ",
-              "title": "Managing Director/Leas U.S. Auto Analyst",
+              "title": "Managing Director/Lead U.S. Auto Analyst",
               "img": "murphy.jpg",
               "bio": [
                 "John Murphy is a managing director and the lead US Auto analyst in Equity Research. He advises clients on investments in automobile manufacturers, suppliers, dealers and related businesses. Key pillars of his research portfolio include: Car Wars, Who Makes the Car, the Dealer Manual, the Big Bang Series, and the Annual New York Auto Summit. ",
@@ -273,7 +273,7 @@
           size: "medium",
           color: "blue",
           classes: "center aligned",
-          text: "Friday, October 11th"
+          text: "Friday Lunch, October 11th"
         },
         {
           ctl: "cards",
@@ -291,7 +291,7 @@
           size: "medium",
           color: "blue",
           classes: "center aligned",
-          text: "Saturday, October 12th"
+          text: "Saturday Lunch, October 12th"
         },
         {
           ctl: "cards",
@@ -329,12 +329,12 @@
      if( tmpOptions.type == 'lunch'){
        this.cardsEntry.ctl = "div"
        tmpOrderNode = 'lunch';
-       tmpTitle = "Leadership Lunch Conversations";
+       tmpTitle = "Leadership Lunch Sessions";
      } else {
        this.cardsEntry.content = [];
      }
      
-     this.titleEntry = tmpTitle;
+     this.titleEntry.text = tmpTitle;
      
      for( var iPos in tmpSpkDetails[tmpOrderNode] ){
        var tmpKey = tmpSpkDetails[tmpOrderNode][iPos];
@@ -343,9 +343,15 @@
        var tmpOrg = tmpDetails.org || '';
        if( tmpOrg ){
          if( tmpDesc ){
-           tmpDesc += ' - ';
+           tmpDesc += '<br />';
          }
          tmpDesc += tmpOrg;
+       }
+       
+       tmpDetails.dayshow = tmpDetails.day;
+       if( tmpOptions.type == 'lunch'){
+        //tmpDetails.dayshow += ' Lunch';
+        tmpDetails.dayshow = '';
        }
        
        var tmpNewCard = {
@@ -362,7 +368,7 @@
           "name": tmpDetails.key,
           "header": tmpDetails.name,
           "imageSrc": "./res/" + tmpDetails.img + "",
-          "meta": "<a>" + tmpDetails.day + "</a>",
+          "meta": "<a>" + tmpDetails.dayshow + "</a>",
           "description": tmpDesc
         };
       if( tmpOptions.type == 'lunch'){

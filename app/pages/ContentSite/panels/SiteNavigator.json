@@ -3,7 +3,7 @@
     "ctl": "tbl-ol-node",
     "name": "console",
     "type": "page",
-    "details": "<h3 style='paddintg-top:5px' class='ui header'>GLC 2019</h3>",
+    "details": "<span style='font-size:larger;'>GLC 2019 <span style=\"float:right;\">Oct 10-13</span></span>",
     "classes": "site-outline site-map-header",
     "level": 3,
     "group": "site-outline",
@@ -76,7 +76,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "leadership",
-            "details": "Leadership Lunch",
+            "details": "Lunch Sessions",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
