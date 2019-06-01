@@ -8,17 +8,17 @@
           "title": "2019 Conference Speakers",
           "message": "Come hear what these exciting speakers have to say, PENDING REVIEW",
           "order": [
-        		"abate",
-        		"baumbick",
-        		"keese",
-        		"massimino",
-        		"murphy",
-        		"ravi",
-        		"rocker",
-        		"thomas",
-        		"tullman",
-        		"wilson",
-        		"mcelroy"
+            "abate",
+            "baumbick",
+            "keese",
+            "massimino",
+            "murphy",
+            "ravi",
+            "rocker",
+            "thomas",
+            "tullman",
+            "wilson",
+            "mcelroy"
           ],
           "lunch": [
             "kiefer",
@@ -110,7 +110,7 @@
                 "Kiefer is responsible for the strategic direction of GM&#146s worldwide purchasing, supply chain and logistics operations. Drawing on extensive technical expertise and first-hand experience as a supplier, he is focused on collaborating with suppliers to deliver exceptional vehicle quality, innovation and value to GM customers.",
                 "Kiefer returned to GM in September 2013 as Vice President, Global Powertrain, after more than a decade of senior leadership roles with the automotive supplier Delphi.  ",
                 "Kiefer began his career in 1983 as a college cooperative student with GM North American Car Group. He has held various leadership roles within GM and Delphi throughout his career, including Senior Vice President of Delphi and president of Delphi Powertrain Systems. ",
-                "Kiefer is a member of the Advisory Board of Focus: HOPE and the Michigan State University College of Engineering Alumni Association Board. He is GM&#146s key executive at Michigan State University and previously served as a member of the Berkeley Engineering Advisory Board, the Supervisory Board of Adam Opel AG in Germany and the board of directors of United Way for Southeastern Michigan. Kiefer is the founder of The Kiefer Foundation whose mission is to end distracted driving and all associated traffic deaths and injuries. In July 2018, he received the Distinguished Service Citation from the Automotive Hall of Fame honoring the work he has done to end distracted driving through the Kiefer Foundation.",
+                "Kiefer is a member of the Advisory Board of Focus: HOPE and the Michigan State University College of Engineering Alumni Association Board. He is GM&#146s key executive at Michigan State University and previously served as a member of the Berkeley Engineering Advisory Board, the Supervisory Board of Adam Opel AG in Germany and the board of directors of United Way for Southeastern Michigan. Kiefer is the founder of The Kiefer Foundation whose mission is to end distracted driving and all associated traffic deaths and injuries. In July 2018, he received the Distinguished Service Citation from the Automotive Hall of Fame honoring the work he has done to end distracted driving through The Kiefer Foundation.",
                 "Kiefer received a master's degree in business administration from the University of Michigan. He earned a bachelor's degree in mechanical engineering from Michigan State University, which included engineering studies at RWTH Aachen University in Germany."
               ],
               "day": "Friday"
@@ -122,7 +122,7 @@
               "title": "Former NASA Astronaut, Columbia University Engineering Professor",
               "img": "massimino.jpg",
               "bio": [
-                "Mike Massimino, a former NASA astronaut, is a professor of Mechanical Engineering at Columbia University, and the senior advisor for space programs at the Intrepid Sea, Air, and Space Museum. He received his Bachelor of Science degree from Columbia and Master of Science degree in both Mechanical Engineering and Technology and Policy, as well as his Doctor of Philosophy degree in Mechanical Engineering from the Massachusetts Institute of Technology.",
+                "Mike Massimino, a former NASA astronaut is a professor of Mechanical Engineering at Columbia University, and the senior advisor for space programs at the Intrepid Sea, Air, and Space Museum. He received his Bachelor of Science degree from Columbia and Master of Science degree in both Mechanical Engineering and Technology and Policy, as well as his Doctor of Philosophy degree in Mechanical Engineering from the Massachusetts Institute of Technology.",
                 "After working as an engineer at IBM, NASA Headquarters and McDonnell Douglas Aerospace, along with academic appointments at both Rice University and the Georgia Institute of Technology, Massimino was selected as an astronaut candidate by NASA in 1996. A veteran of two space flights, the fourth and fifth Hubble Space Telescope servicing missions in 2002 and 2009, Massimino has many accomplishments including a team record for the number of hours spacewalking in a single space shuttle mission and the first person to tweet from Space with over 1.3 million twitter followers currently. He has also received a number of awards including two NASA &#147Space Flight Medals&#148, the NASA &#147Distinguished Service Medal&#148, and the American Astronautical Society&#146s 2009 &#147Flight Achievement Award&#148. He is also the holder of two patents and author of several engineering research papers. ",
                 "Back at his alma mater, Columbia, Massimino is teaching an undergraduate course, Introduction to Human Space Flight, which harnesses his years of academic and professional experience. He is also working with The Art of Engineering, a course in which all first-year engineers attend design lectures and work on engineering projects with socially responsible themes. ",
                 "When not in academia or at NASA, Massimino has made several television appearances including a recurring role as himself on the CBS hit comedy, The Big Bang Theory. In addition, he frequently appears in specials on Discovery, History, PBS and National Geographic Channels, along with national and cable news. He has also been a guest on many of the late night talk shows including The Late Show with David Letterman and The Late Late Show with Craig Ferguson. ",
@@ -146,10 +146,10 @@
               "key": "murphy",
               "name": "John J. Murphy, CFA",
               "org": "Bank of America Merrill Lynch ",
-              "title": "Managing Director/Lead U.S. Auto Analyst",
+              "title": "Managing Director<br />Lead U.S. Auto Analyst",
               "img": "murphy.jpg",
               "bio": [
-                "John Murphy is a managing director and the lead US Auto analyst in Equity Research. He advises clients on investments in automobile manufacturers, suppliers, dealers and related businesses. Key pillars of his research portfolio include: Car Wars, Who Makes the Car, the Dealer Manual, the Big Bang Series, and the Annual New York Auto Summit. ",
+                "John Murphy is a managing director and the lead U.S. Auto analyst in Equity Research. He advises clients on investments in automobile manufacturers, suppliers, dealers and related businesses. Key pillars of his research portfolio include: Car Wars, Who Makes the Car, the Dealer Manual, the Big Bang Series, and the Annual New York Auto Summit. ",
                 "He has earned high rankings in industry surveys, including the Institutional Investor All America Research Team, the Wall Street Journal Best on the Street, the Financial Times/Starmine World&#146s Top Analysts, and Bloomberg Markets World&#146s Top Analysts. ",
                 "Murphy has presented to numerous boards and senior management across the automotive value chain. He has also addressed a number of industry conferences including: the Automotive News World Congress, the Original Equipment Suppliers Annual Conference, the World Economic Forum Automotive Industry Sessions, the National Automobile Dealers Association Symposium, the Federal Reserve Bank of Chicago&#146s Automotive Outlook Symposium, and many others. ",
                 "He joined the Merrill Lynch Auto group in 1999. Prior to that, Murphy worked at the National Economic Research Associates (NERA) in the banking and finance practice. ",
@@ -202,10 +202,17 @@
             "smiley": {
               "key": "smiley",
               "name": "Carl Smiley",
-              "org": "FCA US LLC ",
+              "org": "FCA US LLC",
               "title": "Chief Purchasing & Supply Chain Officer ",
               "img": "smiley.jpg",
-              "bio": [],
+              "bio": [
+                "Carl Smiley was appointed Chief Purchasing & Supply Chain Officer and a member of the Group Executive Council (GEC) in January 2019. ",
+                "Previously, Mr. Smiley was Senior Vice President and General Manager for TE Connectivity for the Asia Pacific Region since 2012. ",
+                "From 2006 – 2011, Mr. Smiley held a number of advancing roles within Magna Steyr including Executive Director, Purchasing – Magna Powertrain / Magna International (Asia Pacific); Vice President, Operations and Purchasing – Magna Powertrain (Asia) and President and Board Member – Magna Steyr (Asia). ",
+                "Mr. Smiley began his career at General Motors and spent time in quality, purchasing, production management, and supplier quality within the U.S., China and Mexico. ",
+                "He holds a Bachelor of Arts from Alma College (Alma, Michigan) and a Master of Management with a focus on International Business and Finance from Regent University (Virginia Beach, Virginia). ",
+                "Mr. Smiley was born in Detroit, Michigan."
+              ],
               "day": "Saturday"
             },
             "thomas": {
@@ -214,7 +221,11 @@
               "org": "General Motors",
               "title": "Chief Data & Analytics Officer",
               "img": "thomas.jpg",
-              "bio": [],
+              "bio": [
+                "Charles Thomas is General Motors&#146 first chief data and analytics officer, reporting to Alan Batey. As leader of the chief data and analytics office, Charles instills a culture of data-driven decision making. The CDAO maximizes the impact data and insights have on business results, operational efficiency and effectiveness. Charles plays a crucial role in GM&#146s digital transformation to ensure customer, corporate and business data are managed as a strategic asset. ",
+                "Charles has expertise leveraging data to drive strategy across B2B and B2C segments, digital and traditional routes to market, multiple regions, and industry verticals such as energy, high-tech, pharma, retail, and financial services. This is Charles&#146 third time as CDO for a major corporation. He&#146s previously led these efforts for Hewlett-Packard, USAA, and Wells Fargo.",
+                "Charles sits on the University of California at Berkeley&#146s School of Information advisory panel and is a consult for numerous programs across the country. He holds a PhD in Sociology – Organizational Behavior and Quantitative Methods – from Yale University. He is headquartered in Detroit and lives in Austin with his wife and two children. "
+              ],
               "day": "Friday"
             },
             "tullman": {
@@ -231,8 +242,8 @@
             "wilson": {
               "key": "wilson",
               "name": "Mark Wilson, PhD",
-              "org": "Michigan State University",
-              "title": "Professor of Urban and Regional Planning, School of Planning, Design and Construction",
+              "org": "School of Planning, Design and Construction<br />Michigan State University",
+              "title": "Professor of Urban and Regional Planning",
               "img": "wilson.jpg",
               "bio": [
                 "Mark Wilson is Professor of Urban and Regional Planning, and co-founder of the Autonomous Futures research group, in the School of Planning, Design and Construction at Michigan State University.  His academic background focused on economics and regional science with his PhD from the University of Pennsylvania.  Research and teaching interests address urban planning, disruptive technologies, mega-events, and economic development.  Current projects include the urban implications of autonomous technologies; the role of innovation, knowledge and information technology in urban development; and mega-event planning for world&#146s fairs and Olympics."
@@ -257,6 +268,15 @@
         "size": "large",
         "color": "blue"
       },
+      {
+        ctl: "div", 
+        classes: "ui  basic large label",
+        styles: "font-size:larger;margin-bottom:20px;",
+        name: "title-lunch-message",
+        color: "violet",
+        basic: true,
+        text: "Limited to 20 attendees per session, each one-hour lunch offers candid discussions with noted industry leaders to address issues and challenges. Each attendee will have the opportunity to ask a question, with attendance limited to one person per company per session.<br /><br />Registration will take place onsite on Thursday, October 10 from 5:00 - 5:30 p.m. in the Cameo Ballroom. Spaces will go fast.<br /><br />Note: Gold and Silver sponsors were granted pre-registration as part of sponsorship."
+      },
       
       {
         "ctl": "cards",
@@ -265,120 +285,136 @@
         "slim": true,
         "link": true,
         attr: {
-          "pagespot":"cards-area"
+          "pagespot": "cards-area"
         },
-        "content": [
+        "content": [{
+          ctl: "title",
+          size: "medium",
+          color: "blue",
+          classes: "center aligned",
+          text: "Friday, October 11<br />12:30-1:30 p.m."
+        },
           {
-          ctl: "title",
-          size: "medium",
-          color: "blue",
-          classes: "center aligned",
-          text: "Friday Lunch, October 11th"
-        },
-        {
-          ctl: "cards",
-        classes: "centered section ",
-        "slim": true,
-        "link": true,
-        attr: {
-          "pagespot":"cards-area"
-        },
-          name: "Friday", 
-          content: []
-        },
-        {
-          ctl: "title",
-          size: "medium",
-          color: "blue",
-          classes: "center aligned",
-          text: "Saturday Lunch, October 12th"
-        },
-        {
-          ctl: "cards",
-        classes: "centered section ",
-        "slim": true,
-        "link": true,
-        attr: {
-          "pagespot":"cards-area"
-        },
-          name: "Saturday", 
-          content: []
-        }]
+            ctl: "cards",
+            classes: "centered section ",
+            "slim": true,
+            "link": true,
+            attr: {
+              "pagespot": "cards-area"
+            },
+            name: "Friday",
+            content: []
+          },
+          {
+            ctl: "title",
+            size: "medium",
+            color: "blue",
+            classes: "center aligned",
+            text: "Saturday, October 12<br />12:30-1:30 p.m."
+          },
+          {
+            ctl: "cards",
+            classes: "centered section ",
+            "slim": true,
+            "link": true,
+            attr: {
+              "pagespot": "cards-area"
+            },
+            name: "Saturday",
+            content: []
+          }]
+      }
+      
+      ,
+      {
+        ctl: "div", 
+        styles: "clear:both;margin-bottom:10px;"
+      },
+      {
+        ctl: "div", 
+        classes: "ui center aligned segment basic pad0",
+        styles: "font-style: italic;font-size:larger;",
+        basic: true,
+        text: "Speakers subject to change"
       }]
   };
 
   var ControlCode = {};
 
-  ControlCode._onPreInit = function(){
-  //  this.setup({type: ""});
+  ControlCode._onPreInit = function() {
+    //  this.setup({type: ""});
   };
-  
+
   ControlCode.setup = setup;
   function setup(theOptions) {
     var tmpOptions = theOptions || {};
-    
-     
-     this.titleEntry = this.getItemSpecs('title');
-     var tmpSpkDetails = this.getConfig().options.customData.speakerDetails;
-     this.cardsEntry = this.getItemSpecs('main-cards');
-  
-     //--- clear existing just in case
-     //this.cardsEntry.content = [];
-     var tmpTitle = "2019 Speakers";
-     var tmpOrderNode = 'order';
-     if( tmpOptions.type == 'lunch'){
-       this.cardsEntry.ctl = "div"
-       tmpOrderNode = 'lunch';
-       tmpTitle = "Leadership Lunch Sessions";
-     } else {
-       this.cardsEntry.content = [];
-     }
-     
-     this.titleEntry.text = tmpTitle;
-     
-     for( var iPos in tmpSpkDetails[tmpOrderNode] ){
-       var tmpKey = tmpSpkDetails[tmpOrderNode][iPos];
-       var tmpDetails = tmpSpkDetails.index[tmpKey];
-       var tmpDesc = tmpDetails.title || '';
-       var tmpOrg = tmpDetails.org || '';
-       if( tmpOrg ){
-         if( tmpDesc ){
-           tmpDesc += '<br />';
-         }
-         tmpDesc += tmpOrg;
-       }
-       
-       tmpDetails.dayshow = tmpDetails.day;
-       if( tmpOptions.type == 'lunch'){
+
+
+    this.titleEntry = this.getItemSpecs('title');
+    var tmpSpkDetails = this.getConfig().options.customData.speakerDetails;
+    this.cardsEntry = this.getItemSpecs('main-cards');
+
+    //--- clear existing just in case
+    //this.cardsEntry.content = [];
+    var tmpTitle = "2019 Speakers";
+    var tmpOrderNode = 'order';
+    if (tmpOptions.type == 'lunch') {
+      this.cardsEntry.ctl = "div";
+      tmpOrderNode = 'lunch';
+      tmpTitle = "Leadership Lunch Conversations";
+    } else {
+      this.cardsEntry.content = [];
+      var tmpLunchTitle = this.getItemSpecs('title-lunch-message');
+      tmpLunchTitle.classes = "hidden";
+      tmpLunchTitle.text = "";
+
+    }
+
+    this.titleEntry.text = tmpTitle;
+
+    for (var iPos in tmpSpkDetails[tmpOrderNode]) {
+      var tmpKey = tmpSpkDetails[tmpOrderNode][iPos];
+      var tmpDetails = tmpSpkDetails.index[tmpKey];
+      var tmpDesc = tmpDetails.title || '';
+      var tmpOrg = tmpDetails.org || '';
+      if (tmpOrg) {
+        if (tmpDesc) {
+          tmpDesc += '<br />';
+        }
+        tmpDesc += tmpOrg;
+      }
+
+      tmpDetails.dayshow = tmpDetails.day;
+      if (tmpOptions.type == 'lunch') {
         //tmpDetails.dayshow += ' Lunch';
         tmpDetails.dayshow = '';
-       }
-       
-       var tmpNewCard = {
-          "ctl": "cardfull",
-          "classes": "orange raised tall",
-          centered: true,
-          onClick: {
-            run: "action", 
-            action: "showDetails",
-            details: tmpDetails,
-            key: tmpDetails.key,
-            source: "page"
-          },
-          "name": tmpDetails.key,
-          "header": tmpDetails.name,
-          "imageSrc": "./res/" + tmpDetails.img + "",
-          "meta": "<a>" + tmpDetails.dayshow + "</a>",
-          "description": tmpDesc
-        };
-      if( tmpOptions.type == 'lunch'){
-       var tmpEntry = this.getItemSpecs(tmpDetails.day);
-       tmpEntry.content.push(tmpNewCard);
+      }
+
+      var tmpNewCard = {
+        "ctl": "cardfull",
+        "classes": "orange raised tall",
+        centered: true,
+        onClick: {
+          run: "action",
+          action: "showDetails",
+          details: tmpDetails,
+          key: tmpDetails.key,
+          source: "page"
+        },
+        "name": tmpDetails.key,
+        "header": tmpDetails.name,
+        "imageSrc": "./res/" + tmpDetails.img + "",
+        "meta": "<a>" + tmpDetails.dayshow + "</a>",
+        "description": tmpDesc
+      };
+      if (tmpOptions.type == 'lunch') {
+        var tmpEntry = this.getItemSpecs(tmpDetails.day);
+        tmpEntry.content.push(tmpNewCard);
       } else {
         this.cardsEntry.content.push(tmpNewCard);
       }
-     }
-     
+    }
+
     // this.cardsEntry.content = [{
     //       "ctl": "cardfull",
     //       "classes": "orange raised tall",
@@ -500,8 +536,10 @@
 
 
   var ThisControl = {
-    specs: ControlSpecs, options: {
-      proto: ControlCode, parent: ThisApp
+    specs: ControlSpecs,
+    options: {
+      proto: ControlCode,
+      parent: ThisApp
     }};
   return ThisControl;
 })(ActionAppCore, $);

@@ -94,7 +94,7 @@
         "content": [{
           "ctl": "tbl-ol-node",
           "name": "guest-act",
-          "details": "Guest Activities",
+          "details": "Spouse/Guest Activities",
           "meta": "<i class='ui icon right arrow'>",
           "type": "page",
           "group": "site-outline",
