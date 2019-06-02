@@ -20,7 +20,7 @@
         {
         "ctl": "tbl-ol-node",
         "name": "about",
-        "details": "About GLC",
+        "details": "GLC: By Invitation Only",
         "meta": "<i class='ui icon right arrow'>",
         "type": "page",
         "group": "site-outline",
@@ -56,7 +56,7 @@
         "content": [{
           "ctl": "tbl-ol-node",
           "name": "agenda",
-          "details": "Agenda",
+          "details": "What to Expect",
           "meta": "<i class='ui icon right arrow'>",
           "type": "page",
           "group": "site-outline",
@@ -66,7 +66,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "speakers",
-            "details": "Speakers",
+            "details": "Come Listen",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
@@ -76,7 +76,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "leadership",
-            "details": "Lunch Sessions",
+            "details": "Private Discussions",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
@@ -114,7 +114,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "networking",
-            "details": "Networking",
+            "details": "Interesting Things to Do",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
@@ -132,7 +132,7 @@
         "content": [{
           "ctl": "tbl-ol-node",
           "name": "hotel",
-          "details": "The Greenbrier",
+          "details": "America&#146s Resort",
           "meta": "<i class='ui icon right arrow'>",
           "type": "page",
           "group": "site-outline",
@@ -142,7 +142,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "dining",
-            "details": "Dining",
+            "details": "Where to Dine",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
@@ -152,7 +152,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "dress",
-            "details": "Dress Code",
+            "details": "What to Wear & Where",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
@@ -171,7 +171,7 @@
         "content": [{
           "ctl": "tbl-ol-node",
           "name": "travel-package",
-          "details": "Travel Package",
+          "details": "Getting to Greenbrier",
           "meta": "<i class='ui icon right arrow'>",
           "type": "page",
           "group": "site-outline",
@@ -193,7 +193,7 @@
         "ctl": "tbl-ol-node",
         "type": "activities",
         "report": "activities",
-        "details": "Registration",
+        "details": "Register Now",
         "level": 2,
         "color": "black",
         "content": [
@@ -202,7 +202,7 @@
           {
           "ctl": "tbl-ol-node",
           "name": "pricing",
-          "details": "Pricing Details",
+          "details": "Cost & Expenses",
           "meta": "<i class='ui icon right arrow'>",
           "type": "page",
           "group": "site-outline",

@@ -5,8 +5,16 @@
       padding: true,
       customData: {
         speakerDetails: {
-          "title": "2019 Conference Speakers",
-          "message": "Come hear what these exciting speakers have to say, PENDING REVIEW",
+          "title": "Come Listen",
+          "titleLunch": "Private Discussions",
+          "intro": "Come hear a slate of outstanding speakers and thought leaders. Over the course of the two-day conference sessions, GLC will explore how leadership must balance the bifurcated, but related challenges of maintaining a healthy business TODAY, while preparing and envisioning the opportunities of TOMORROW.",
+          "introLunch": "Imagine the intimate discussion… chatting over lunch with a respected industry leader. Limited to only 20 attendees per session, the one-hour lunch sessions offer candid discussion, with each attendee having the opportunity to ask a question. Attendance limited to one person per company per session, adding to the diversity of each session.",
+          titleFri: "Friday, October 11",
+          titleSat: "Saturday, October 12",
+          titleFriLunch: 'Friday, October 11<br />12:30-1:30 p.m.',
+          titleSatLunch: 'Saturday, October 12<br />12:30-1:30 p.m.',
+          msgFri: '<div class="" style="font-size:larger;margin-bottom:20px;"><b>What initiatives are required TODAY to meet both customer and investor expectations, handle business-as-usual, but partake in an industry renaissance? The slate of speakers will explore the following themes, offering insight on their personal experiences in rising to the challenge:</b><br /><ul class="ui list"><li>What does it mean to be a truly agile organization? Is it speed; is it flexibility, or process control?  Can we learn from other industries – in Silicon Valley, software companies, and a whole new set of entrants into an already-crowded auto industry?  </li><li>How do we use &#147big data&#148 to solve problems?</li><li>How can we balance the lure of artificial intelligence with retraining our current workforce?  How do we attract and retain the best and brightest for the auto industry?</li><li>Is &#147company hopping&#148 a symptom of a frustrated generation, or are skills increasingly portable and therefore in the hands of those who possess the most unique skills?</li><li>And more!</li></ul></div>',
+          msgSat: '<div class="" style="font-size:larger;margin-bottom:20px;"><b>How should leadership meet the challenges of TOMORROW, even as the onslaught of data changes the very fiber of our companies, our people, and our cities? A unique lineup of industry and non-industry thought leaders will offer their perspective on what lies ahead, and how to prepare for it. Among the discussion topics:</b><br /><ul class="ui list"><li>Plenty of data from automobiles is available now, but how do we create a business case for benefitting from it? How do we monetize those assets?</li><li>Does Wall Street reward or penalize companies as they transition to the use of data as a potential product?  </li><li>Who owns the data? How do we secure it? How do we handle customer expectations for privacy and protection?</li><li>As electrification and autonomous mobility increase, what should the cities of tomorrow look like? What unintended social consequence lie ahead, even as we race toward autonomous and alternate modes of transportation?</li><li>How do all of the stakeholders work together, yet still preserve some uniqueness within their own companies?</li><li>And more!</li></ul></div>',
           "order": [
             "abate",
             "baumbick",
@@ -261,23 +269,22 @@
       "size": "medium",
       "color": "black"
     },
-      {
-        "ctl": "message",
-        "name": "title-msg",
-        "text": "Come hear .... [pending text] ... 2019 Speakers",
-        "size": "large",
-        "color": "blue"
-      },
-      {
-        ctl: "div", 
-        classes: "ui  basic large label",
-        styles: "font-size:larger;margin-bottom:20px;",
-        name: "title-lunch-message",
-        color: "violet",
-        basic: true,
-        text: "Limited to 20 attendees per session, each one-hour lunch offers candid discussions with noted industry leaders to address issues and challenges. Each attendee will have the opportunity to ask a question, with attendance limited to one person per company per session.<br /><br />Registration will take place onsite on Thursday, October 10 from 5:00 - 5:30 p.m. in the Cameo Ballroom. Spaces will go fast.<br /><br />Note: Gold and Silver sponsors were granted pre-registration as part of sponsorship."
-      },
       
+       {
+        "ctl": "div",
+        "name": "title-msg",
+        classes: "ui basic label full aligned fluid",
+        styles: "font-size:18px;line-height:25px;margin-bottom:20px;padding:20px;",
+        text: ""
+      },
+      {
+        ctl: "div",
+        classes: "ui segment basic slim larger",
+        name: "top-message",
+        basic: true,
+        text: "Limited to 20 attendees per session, each one-hour lunch offers candid discussions with noted industry leaders to address issues and challenges. Each attendee will have the opportunity to ask a question, with attendance limited to one person per company per session.<br /><br />Registration will take place onsite on Thursday, October 10 from 5:00 - 5:30 p.m. in the Cameo Ballroom. Spaces will go fast, so think about which session you want to attend, and sign up as soon as you arrive!<br /><br /><i>Note: Gold and Silver sponsors are granted pre-registration as part of their sponsorship.</i>"
+      },
+
       {
         "ctl": "cards",
         "name": "main-cards",
@@ -292,8 +299,18 @@
           size: "medium",
           color: "blue",
           classes: "center aligned",
-          text: "Friday, October 11<br />12:30-1:30 p.m."
+          name: "fri-title",
+          text: "Friday, October 11"
         },
+          {
+            ctl: "div",
+            classes: "larger",
+            styles: "margin-bottom:20px;",
+            name: "fri-msg",
+            basic: true,
+            text: ""
+          },
+
           {
             ctl: "cards",
             classes: "centered section ",
@@ -309,9 +326,19 @@
             ctl: "title",
             size: "medium",
             color: "blue",
+            name: "sat-title",
             classes: "center aligned",
-            text: "Saturday, October 12<br />12:30-1:30 p.m."
+            text: "Saturday, October 12"
           },
+          {
+            ctl: "div",
+            classes: "larger",
+            styles: "margin-bottom:20px;",
+            name: "sat-msg",
+            basic: true,
+            text: ""
+          },
+
           {
             ctl: "cards",
             classes: "centered section ",
@@ -323,15 +350,13 @@
             name: "Saturday",
             content: []
           }]
-      }
-      
-      ,
+      },
       {
-        ctl: "div", 
+        ctl: "div",
         styles: "clear:both;margin-bottom:10px;"
       },
       {
-        ctl: "div", 
+        ctl: "div",
         classes: "ui center aligned segment basic pad0",
         styles: "font-style: italic;font-size:larger;",
         basic: true,
@@ -351,26 +376,48 @@
 
 
     this.titleEntry = this.getItemSpecs('title');
+    this.titleMsg = this.getItemSpecs('title-msg');
     var tmpSpkDetails = this.getConfig().options.customData.speakerDetails;
     this.cardsEntry = this.getItemSpecs('main-cards');
+    this.titleFri = this.getItemSpecs('fri-title');
+    this.titleSat = this.getItemSpecs('sat-title');
+    this.msgFri = this.getItemSpecs('fri-msg');
+    this.msgSat = this.getItemSpecs('sat-msg');
+    this.msgTop = this.getItemSpecs('top-message');
+//          var tmpLunchTitle = this.getItemSpecs('top-message');
+
 
     //--- clear existing just in case
-    //this.cardsEntry.content = [];
-    var tmpTitle = "2019 Speakers";
     var tmpOrderNode = 'order';
+    this.cardsEntry.ctl = "div";
     if (tmpOptions.type == 'lunch') {
-      this.cardsEntry.ctl = "div";
-      tmpOrderNode = 'lunch';
-      tmpTitle = "Leadership Lunch Conversations";
-    } else {
-      this.cardsEntry.content = [];
-      var tmpLunchTitle = this.getItemSpecs('title-lunch-message');
-      tmpLunchTitle.classes = "hidden";
-      tmpLunchTitle.text = "";
+      this.titleEntry.text = tmpSpkDetails.titleLunch;
+      this.titleMsg.text = tmpSpkDetails.introLunch;
 
+      this.titleFri.text = tmpSpkDetails.titleFriLunch;
+      this.titleSat.text = tmpSpkDetails.titleSatLunch;
+
+      this.msgFri.classes = "hidden";
+      this.msgFri.text = "";
+      this.msgSat.classes = "hidden";
+      this.msgSat.text = "";
+
+      tmpOrderNode = 'lunch';
+    } else {
+      this.titleEntry.text = tmpSpkDetails.title;
+      this.titleMsg.text = tmpSpkDetails.intro;
+
+      this.titleFri.text = tmpSpkDetails.titleFri;
+      this.titleSat.text = tmpSpkDetails.titleSat;
+
+      this.msgFri.text = tmpSpkDetails.msgFri;
+      this.msgSat.text = tmpSpkDetails.msgSat;
+
+      //      this.cardsEntry.content = [];
+      this.msgTop.classes = "hidden";
+      this.msgTop.text = "";
     }
 
-    this.titleEntry.text = tmpTitle;
 
     for (var iPos in tmpSpkDetails[tmpOrderNode]) {
       var tmpKey = tmpSpkDetails[tmpOrderNode][iPos];
@@ -384,11 +431,12 @@
         tmpDesc += tmpOrg;
       }
 
-      tmpDetails.dayshow = tmpDetails.day;
-      if (tmpOptions.type == 'lunch') {
-        //tmpDetails.dayshow += ' Lunch';
-        tmpDetails.dayshow = '';
-      }
+      // tmpDetails.dayshow = tmpDetails.day;
+      // if (tmpOptions.type == 'lunch') {
+      //   //tmpDetails.dayshow += ' Lunch';
+      //   tmpDetails.dayshow = '';
+      // }
+      tmpDetails.dayshow = '';
 
       var tmpNewCard = {
         "ctl": "cardfull",
@@ -407,131 +455,17 @@
         "meta": "<a>" + tmpDetails.dayshow + "</a>",
         "description": tmpDesc
       };
-      if (tmpOptions.type == 'lunch') {
-        var tmpEntry = this.getItemSpecs(tmpDetails.day);
-        tmpEntry.content.push(tmpNewCard);
-      } else {
-        this.cardsEntry.content.push(tmpNewCard);
-      }
+      var tmpEntry = this.getItemSpecs(tmpDetails.day);
+      tmpEntry.content.push(tmpNewCard);
+
+      // if (tmpOptions.type == 'lunch') {
+      //   var tmpEntry = this.getItemSpecs(tmpDetails.day);
+      //   tmpEntry.content.push(tmpNewCard);
+      // } else {
+      //   this.cardsEntry.content.push(tmpNewCard);
+      // }
     }
 
-    // this.cardsEntry.content = [{
-    //       "ctl": "cardfull",
-    //       "classes": "orange raised tall",
-    //       "name": "baumbick",
-    //       "header": "Jim Baumbick",
-    //       "imageSrc": "./res/baumbick.jpg",
-    //       "meta": "<a>Friday</a>",
-    //       "description": "Vice President, Enterprise Product Line Management, Strategy & Planning - Ford Motor Company"
-    //     },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-carl-camden",
-    //         "header": "Carl Camden",
-    //         "imageSrc": "./res/spk/CamdenCarl.jpg",
-    //         "meta": "<a>Friday and Saturday</a>",
-    //         "description": "President, IPSE - U.S., The Association of Independent Workers"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-john-daymone",
-    //         "header": "Daymond John",
-    //         "imageSrc": "./res/spk/JohnDaymond.jpg",
-    //         "meta": "<a>Saturday and Discussions</a>",
-    //         "description": "Founder and CEO of FUBU; Star of ABC’s Shark Tank; CEO of Shark Branding and New York Times Best-Selling Author"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-jim-kam",
-    //         "header": "James Kamsickas",
-    //         "imageSrc": "./res/spk/JimKamsickas.jpg",
-    //         "meta": "<a>Friday</a>",
-    //         "description": "President and Chief Executive Officer, Dana Incorporated"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-rob-k",
-    //         "header": "Robert H. Kurnick, Jr.",
-    //         "imageSrc": "./res/spk/RobKurnick.jpg",
-    //         "meta": "<a>Friday</a>",
-    //         "description": "Vice Chairman, Penske Corporation and President, Penske Automotive Group, Inc."
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-gerd-l",
-    //         "header": "Gerd Leonhard",
-    //         "imageSrc": "./res/spk/GerdLeonhard.jpg",
-    //         "meta": "<a>Saturday</a>",
-    //         "description": "Futurist, Visionary Thinker and Author"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-mike-man",
-    //         "header": "Mike Mansuetti",
-    //         "imageSrc": "./res/spk/MikeMansuetti.jpg",
-    //         "meta": "<a>Saturday</a>",
-    //         "description": "President, North America, Bosch"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-amity-m",
-    //         "header": "Amity Millhiser",
-    //         "imageSrc": "./res/spk/AmityMillhiser.jpg",
-    //         "meta": "<a>Friday</a>",
-    //         "description": "Vice Chair and Chief Clients Officer PwC US"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-karl-n",
-    //         "header": "Karl-Thomas Neumann",
-    //         "imageSrc": "./res/spk/KarlThomasNeumann.jpg",
-    //         "meta": "<a>Friday</a>",
-    //         "description": "In Charge of Mobility, EVELOZCITY"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-bryan-riemer",
-    //         "header": "Bryan Reimer, Ph.D.",
-    //         "imageSrc": "./res/spk/BryanReimer.jpg",
-    //         "meta": "<a>Friday</a>",
-    //         "description": "Research Scientist, MIT AgeLab and Associate Director, The New England University Transportation Center, MIT"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-ken-washington",
-    //         "header": "Dr. Ken Washington",
-    //         "imageSrc": "./res/spk/KenWashington.jpg",
-    //         "meta": "<a>Saturday</a>",
-    //         "description": "Vice President, Research and Advanced Engineering and Chief Technology Officer, Ford Motor Company"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-kathy-winter",
-    //         "header": "Kathy Winter",
-    //         "imageSrc": "./res/spk/KathyWinter.jpg",
-    //         "meta": "<a>dayyyyyyy</a>",
-    //         "description": "Vice President and General Manager, Autonomous Driving Solutions Division, Intel"
-    //       },
-    //       {
-    //         "ctl": "cardfull",
-    //         "classes": "orange raised tall",
-    //         "name": "card-john-mcelroy",
-    //         "header": "John McElroy",
-    //         "imageSrc": "./res/spk/JohnMcElroy.jpg",
-    //         "meta": "<a>Conference Moderator</a>",
-    //         "description": "Host of Autoline"
-    //       }]
   }
 
 
