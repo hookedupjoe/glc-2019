@@ -274,7 +274,7 @@
         "ctl": "div",
         "name": "title-msg",
         classes: "ui basic label full aligned fluid",
-        styles: "font-size:18px;line-height:25px;margin-bottom:20px;padding:20px;",
+        styles: "font-size:18px;line-height:25px;margin-bottom:20px;",
         text: ""
       },
       {
