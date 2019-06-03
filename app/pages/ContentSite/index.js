@@ -59,7 +59,8 @@ thisPageSpecs.required = {
   controls: {
     baseURL: pageBaseURL + 'controls/',
     map: {
-      "SpeakerCards": "SpeakerCards"
+      "SpeakerCards": "SpeakerCards",
+      "CafeCards": "CafeCards"
     }
   }
 };
@@ -215,6 +216,9 @@ var contentSpecs = {
   },
   "dining": {
     tite: "2019 Dining",
+    newsource: {
+      control: 'CafeCards'
+    },
     source: {
       html: 'content-dining'
     }

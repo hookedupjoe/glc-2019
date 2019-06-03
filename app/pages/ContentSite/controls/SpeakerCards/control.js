@@ -26,7 +26,8 @@
             "thomas",
             "tullman",
             "wilson",
-            "mcelroy"
+            "mcelroy",
+            "mcelroy2"
           ],
           "lunch": [
             "kiefer",
@@ -138,7 +139,7 @@
               ],
               "day": "Saturday"
             },
-            "mcelroy": {
+             "mcelroy": {
               "key": "mcelroy",
               "name": "John McElroy",
               "org": "Conference Moderator",
@@ -149,6 +150,18 @@
                 "His past experience includes five years as Detroit Editor for Road & Track, and as the American correspondent for World Cars, which was published by the Automotive Club of Italy. He was also invited to write the annual automotive entry for the Encyclopedia Britannica Yearbook. He spent most of his career at the trade magazine Automotive Industries where he ultimately rose to Editorial Director. McElroy was inducted into the Michigan Journalism Hall of Fame in 2018."
               ],
               "day": "Friday"
+            },
+            "mcelroy2": {
+              "key": "mcelroy",
+              "name": "John McElroy",
+              "org": "Conference Moderator",
+              "title": "Host of Autoline",
+              "img": "mcelroy.jpg",
+              "bio": [
+                "John McElroy is the host of &#147Autoline Daily&#148 the first industry webcast of industry news and analysis. He is also the host of the television program &#147Autoline This Week,&#148 an Emmy Award-winning, weekly half-hour discussion program featuring top automotive executives and journalists. McElroy also hosts &#147Autoline After Hours,&#148 the first regularly scheduled live webcast about the industry. The shows can be seen online at <a class=\"ui link\" href=\"www.autolinedetroit.tv\" target=\"_blank\">www.autolinedetroit.tv</a>.  McElroy also broadcasts five radio segments daily on WWJ Newsradio 950, the CBS affiliate in Detroit. He writes a monthly op-ed article for Ward&#146s Auto World.",
+                "His past experience includes five years as Detroit Editor for Road & Track, and as the American correspondent for World Cars, which was published by the Automotive Club of Italy. He was also invited to write the annual automotive entry for the Encyclopedia Britannica Yearbook. He spent most of his career at the trade magazine Automotive Industries where he ultimately rose to Editorial Director. McElroy was inducted into the Michigan Journalism Hall of Fame in 2018."
+              ],
+              "day": "Saturday"
             },
             "murphy": {
               "key": "murphy",
