@@ -11,8 +11,8 @@
           "introLunch": "Imagine the intimate discussion… chatting over lunch with a respected industry leader. Limited to only 20 attendees per session, the one-hour lunch sessions offer candid discussion, with each attendee having the opportunity to ask a question. Attendance limited to one person per company per session, adding to the diversity of each session.",
           titleFri: "Friday, October 11",
           titleSat: "Saturday, October 12",
-          titleFriLunch: 'Friday, October 11<br />12:30-1:30 p.m.',
-          titleSatLunch: 'Saturday, October 12<br />12:30-1:30 p.m.',
+          titleFriLunch: 'Friday, October 11<br />12:30 - 1:30 p.m.',
+          titleSatLunch: 'Saturday, October 12<br />12:30 - 1:30 p.m.',
           msgFri: '<div class="" style="font-size:larger;margin-bottom:20px;"><b>What initiatives are required TODAY to meet both customer and investor expectations, handle business-as-usual, but partake in an industry renaissance? The slate of speakers will explore the following themes, offering insight on their personal experiences in rising to the challenge:</b><br /><ul class="ui list"><li>What does it mean to be a truly agile organization? Is it speed; is it flexibility, or process control?  Can we learn from other industries – in Silicon Valley, software companies, and a whole new set of entrants into an already-crowded auto industry?  </li><li>How do we use &#147big data&#148 to solve problems?</li><li>How can we balance the lure of artificial intelligence with retraining our current workforce?  How do we attract and retain the best and brightest for the auto industry?</li><li>Is &#147company hopping&#148 a symptom of a frustrated generation, or are skills increasingly portable and therefore in the hands of those who possess the most unique skills?</li><li>And more!</li></ul></div>',
           msgSat: '<div class="" style="font-size:larger;margin-bottom:20px;"><b>How should leadership meet the challenges of TOMORROW, even as the onslaught of data changes the very fiber of our companies, our people, and our cities? A unique lineup of industry and non-industry thought leaders will offer their perspective on what lies ahead, and how to prepare for it. Among the discussion topics:</b><br /><ul class="ui list"><li>Plenty of data from automobiles is available now, but how do we create a business case for benefitting from it? How do we monetize those assets?</li><li>Does Wall Street reward or penalize companies as they transition to the use of data as a potential product?  </li><li>Who owns the data? How do we secure it? How do we handle customer expectations for privacy and protection?</li><li>As electrification and autonomous mobility increase, what should the cities of tomorrow look like? What unintended social consequence lie ahead, even as we race toward autonomous and alternate modes of transportation?</li><li>How do all of the stakeholders work together, yet still preserve some uniqueness within their own companies?</li><li>And more!</li></ul></div>',
           "order": [
@@ -127,8 +127,8 @@
             "massimino": {
               "key": "massimino",
               "name": "Mike Massimino",
-              "org": "",
-              "title": "Former NASA Astronaut, Columbia University Engineering Professor",
+              "org": "Columbia University Engineering Professor",
+              "title": "Former NASA Astronaut",
               "img": "massimino.jpg",
               "bio": [
                 "Mike Massimino, a former NASA astronaut is a professor of Mechanical Engineering at Columbia University, and the senior advisor for space programs at the Intrepid Sea, Air, and Space Museum. He received his Bachelor of Science degree from Columbia and Master of Science degree in both Mechanical Engineering and Technology and Policy, as well as his Doctor of Philosophy degree in Mechanical Engineering from the Massachusetts Institute of Technology.",
@@ -182,7 +182,7 @@
               "key": "ravi",
               "name": "Sanjay Ravi",
               "org": "Microsoft",
-              "title": "General Manager, Automotive Industry",
+              "title": "General Manager, <span class=\"one-liner\">Automotive Industry</span>",
               "img": "ravi.jpg",
               "bio": [
                 "Sanjay Ravi is responsible for the development of Microsoft&#146s global Automotive industry business. He leads the team that supports vehicle manufacturers and mobility service providers including their suppliers and ecosystem partners with innovative solutions and services strategies that accelerate digital transformation. Leveraging the breadth and depth of Microsoft technologies along with partner solutions, Ravi&#146s team guides the growth and competitive strategies for Microsoft in the following areas: connected vehicles, autonomous vehicle development, smart mobility solutions, connected customer experiences and smart factory & supply chain. Ravi and his team are focused on partnering with automakers to bring new digital capabilities and monetization opportunities to the Automotive market quickly.",
@@ -263,8 +263,8 @@
             "wilson": {
               "key": "wilson",
               "name": "Mark Wilson, PhD",
-              "org": "School of Planning, Design and Construction<br />Michigan State University",
-              "title": "Professor of Urban and Regional Planning",
+              "org": "Michigan State University",
+              "title": "Professor of Urban and Regional Planning, School of Planning, Design and Construction",
               "img": "wilson.jpg",
               "bio": [
                 "Mark Wilson is Professor of Urban and Regional Planning, and co-founder of the Autonomous Futures research group, in the School of Planning, Design and Construction at Michigan State University.  His academic background focused on economics and regional science with his PhD from the University of Pennsylvania.  Research and teaching interests address urban planning, disruptive technologies, mega-events, and economic development.  Current projects include the urban implications of autonomous technologies; the role of innovation, knowledge and information technology in urban development; and mega-event planning for world&#146s fairs and Olympics."

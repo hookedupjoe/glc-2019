@@ -150,9 +150,9 @@ var numLookup = ["zero", "one", "two", "three", "four", "five", "six", "seven", 
 
 ThisPage.navClickClosed = false;
 
-ThisPage.minCardSizeSm = 155;
+ThisPage.minCardSizeSm = 210;
 ThisPage.minCardSize = 210;
-ThisPage.maxCardSizeSm = 250;
+ThisPage.maxCardSizeSm = 365;
 ThisPage.maxCardSize = 265;
 ThisPage.currentCardCount = 0;
 ThisPage.cutOffSmall = 668;
