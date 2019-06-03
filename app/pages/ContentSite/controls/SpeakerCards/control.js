@@ -2,11 +2,11 @@
 
   var ControlSpecs = {
     options: {
-      padding: true,
+      padding: false,
       customData: {
         speakerDetails: {
-          "title": "Come Listen",
-          "titleLunch": "Private Discussions",
+          "title": "Conference Speakers",
+          "titleLunch": "Leadership Lunch Conversations",
           "intro": "Come hear a slate of outstanding speakers and thought leaders. Over the course of the two-day conference sessions, GLC will explore how leadership must balance the bifurcated, but related challenges of maintaining a healthy business TODAY, while preparing and envisioning the opportunities of TOMORROW.",
           "introLunch": "Imagine the intimate discussion… chatting over lunch with a respected industry leader. Limited to only 20 attendees per session, the one-hour lunch sessions offer candid discussion, with each attendee having the opportunity to ask a question. Attendance limited to one person per company per session, adding to the diversity of each session.",
           titleFri: "Friday, October 11",
@@ -139,7 +139,7 @@
               ],
               "day": "Saturday"
             },
-             "mcelroy": {
+            "mcelroy": {
               "key": "mcelroy",
               "name": "John McElroy",
               "org": "Conference Moderator",
@@ -276,105 +276,111 @@
       }
     },
     content: [{
-      "ctl": "divider",
-      "name": "title",
-      "text": "Speakers",
-      "size": "medium",
-      "color": "black"
-    },
-      
-       {
+      ctl: "segment",
+      slim: true,
+      basic: true,
+      content: [{
         "ctl": "div",
-        "name": "title-msg",
-        classes: "ui basic label full aligned fluid",
-        styles: "font-size:18px;line-height:25px;margin-bottom:20px;",
-        text: ""
-      },
-      {
-        ctl: "div",
-        classes: "ui segment basic slim larger",
-        name: "top-message",
-        basic: true,
-        text: "Registration will take place onsite on Thursday, October 10 from 5:00 - 5:30 p.m. in the Cameo Ballroom. Spaces will go fast, so think about which session you want to attend, and sign up as soon as you arrive!<br /><br /><i>Note: Gold and Silver sponsors are granted pre-registration as part of their sponsorship.</i>"
+        classes: "ui center aligned horizontal black large header cm-header",
+        "name": "title",
+        "text": "Speakers",
+        "size": "medium",
+        "color": "black"
       },
 
-      {
-        "ctl": "cards",
-        "name": "main-cards",
-        classes: "centered section ",
-        "slim": true,
-        "link": true,
-        attr: {
-          "pagespot": "cards-area"
+        {
+          "ctl": "div",
+          "name": "title-msg",
+          classes: "ui basic label full aligned fluid",
+          styles: "font-size:18px;line-height:25px;margin-bottom:20px;",
+          text: ""
         },
-        "content": [{
-          ctl: "title",
-          size: "medium",
-          color: "blue",
-          classes: "center aligned",
-          name: "fri-title",
-          text: "Friday, October 11"
+        {
+          ctl: "div",
+          classes: "ui segment basic slim larger",
+          name: "top-message",
+          basic: true,
+          text: "Registration will take place onsite on Thursday, October 10 from 5:00 - 5:30 p.m. in the Cameo Ballroom. Spaces will go fast, so think about which session you want to attend, and sign up as soon as you arrive!<br /><br /><i>Note: Gold and Silver sponsors are granted pre-registration as part of their sponsorship.</i>"
         },
-          {
-            ctl: "div",
-            classes: "larger",
-            styles: "margin-bottom:20px;",
-            name: "fri-msg",
-            basic: true,
-            text: ""
-          },
 
-          {
-            ctl: "cards",
-            classes: "centered section ",
-            "slim": true,
-            "link": true,
-            attr: {
-              "pagespot": "cards-area"
-            },
-            name: "Friday",
-            content: []
+        {
+          "ctl": "cards",
+          "name": "main-cards",
+          classes: "centered section ",
+          "slim": true,
+          "link": true,
+          attr: {
+            "pagespot": "cards-area"
           },
-          {
+          "content": [{
             ctl: "title",
             size: "medium",
             color: "blue",
-            name: "sat-title",
             classes: "center aligned",
-            text: "Saturday, October 12"
+            name: "fri-title",
+            text: "Friday, October 11"
           },
-          {
-            ctl: "div",
-            classes: "larger",
-            styles: "margin-bottom:20px;",
-            name: "sat-msg",
-            basic: true,
-            text: ""
-          },
-
-          {
-            ctl: "cards",
-            classes: "centered section ",
-            "slim": true,
-            "link": true,
-            attr: {
-              "pagespot": "cards-area"
+            {
+              ctl: "div",
+              classes: "larger",
+              styles: "margin-bottom:20px;",
+              name: "fri-msg",
+              basic: true,
+              text: ""
             },
-            name: "Saturday",
-            content: []
-          }]
-      },
-      {
-        ctl: "div",
-        styles: "clear:both;margin-bottom:10px;"
-      },
-      {
-        ctl: "div",
-        classes: "ui center aligned segment basic pad0",
-        styles: "font-style: italic;font-size:larger;",
-        basic: true,
-        text: "Speakers subject to change"
-      }]
+
+            {
+              ctl: "cards",
+              classes: "centered section ",
+              "slim": true,
+              "link": true,
+              attr: {
+                "pagespot": "cards-area"
+              },
+              name: "Friday",
+              content: []
+            },
+            {
+              ctl: "title",
+              size: "medium",
+              color: "blue",
+              name: "sat-title",
+              classes: "center aligned",
+              text: "Saturday, October 12"
+            },
+            {
+              ctl: "div",
+              classes: "larger",
+              styles: "margin-bottom:20px;",
+              name: "sat-msg",
+              basic: true,
+              text: ""
+            },
+
+            {
+              ctl: "cards",
+              classes: "centered section ",
+              "slim": true,
+              "link": true,
+              attr: {
+                "pagespot": "cards-area"
+              },
+              name: "Saturday",
+              content: []
+            }]
+        },
+        {
+          ctl: "div",
+          styles: "clear:both;margin-bottom:10px;"
+        },
+        {
+          ctl: "div",
+          classes: "ui center aligned segment basic pad0",
+          styles: "font-style: italic;font-size:larger;",
+          basic: true,
+          text: "Speakers subject to change"
+        }]
+    }]
   };
 
   var ControlCode = {};
@@ -397,7 +403,7 @@
     this.msgFri = this.getItemSpecs('fri-msg');
     this.msgSat = this.getItemSpecs('sat-msg');
     this.msgTop = this.getItemSpecs('top-message');
-//          var tmpLunchTitle = this.getItemSpecs('top-message');
+    //          var tmpLunchTitle = this.getItemSpecs('top-message');
 
 
     //--- clear existing just in case

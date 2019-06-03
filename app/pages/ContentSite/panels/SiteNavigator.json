@@ -66,7 +66,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "speakers",
-            "details": "Come Listen",
+            "details": "Look Who&rsquo;s Talking",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
@@ -181,7 +181,7 @@
           {
             "ctl": "tbl-ol-node",
             "name": "travel-details",
-            "details": "Other Travel Options",
+            "details": "Other Ways to Get There",
             "meta": "<i class='ui icon right arrow'>",
           "type": "page",
             "group": "site-outline",
