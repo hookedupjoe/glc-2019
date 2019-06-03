@@ -151,9 +151,9 @@ var numLookup = ["zero", "one", "two", "three", "four", "five", "six", "seven", 
 ThisPage.navClickClosed = false;
 
 ThisPage.minCardSizeSm = 210;
-ThisPage.minCardSize = 210;
+ThisPage.minCardSize = 265;
 ThisPage.maxCardSizeSm = 365;
-ThisPage.maxCardSize = 265;
+ThisPage.maxCardSize = 365;
 ThisPage.currentCardCount = 0;
 ThisPage.cutOffSmall = 668;
 ThisPage.cutOffLarge = 9999;
@@ -166,6 +166,15 @@ ThisPage.showNoYearIcon = 350;
 ThisPage.showLongYearIcon = 460;
 
 var contentSpecs = {
+  "dining": {
+    tite: "2019 Dining",
+    newsource: {
+      control: 'CafeCards'
+    },
+    source: {
+      html: 'content-dining'
+    }
+  },
   "about": {
     tite: "About GLC",
     source: {
@@ -212,15 +221,6 @@ var contentSpecs = {
     tite: "2019 Ride & Drive",
     source: {
       html: 'content-ride-drive'
-    }
-  },
-  "dining": {
-    tite: "2019 Dining",
-    newsource: {
-      control: 'CafeCards'
-    },
-    source: {
-      html: 'content-dining'
     }
   },
   "travel-details": {

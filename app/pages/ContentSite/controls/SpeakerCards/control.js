@@ -9,8 +9,8 @@
           "titleLunch": "Leadership Lunch Conversations",
           "intro": "Come hear a slate of outstanding speakers and thought leaders. Over the course of the two-day conference sessions, GLC will explore how leadership must balance the bifurcated, but related challenges of maintaining a healthy business TODAY, while preparing and envisioning the opportunities of TOMORROW.",
           "introLunch": "Imagine the intimate discussion… chatting over lunch with a respected industry leader. Limited to only 20 attendees per session, the one-hour lunch sessions offer candid discussion, with each attendee having the opportunity to ask a question. Attendance limited to one person per company per session, adding to the diversity of each session.",
-          titleFri: "Friday, October 11",
-          titleSat: "Saturday, October 12",
+          titleFri: "Friday, October 11<br />8:00 a.m. - 12:00 p.m.",
+          titleSat: "Saturday, October 12<br />8:00 a.m. - 12:00 p.m.",
           titleFriLunch: 'Friday, October 11<br />12:30 - 1:30 p.m.',
           titleSatLunch: 'Saturday, October 12<br />12:30 - 1:30 p.m.',
           msgFri: '<div class="" style="font-size:larger;margin-bottom:20px;"><b>What initiatives are required TODAY to meet both customer and investor expectations, handle business-as-usual, but partake in an industry renaissance? The slate of speakers will explore the following themes, offering insight on their personal experiences in rising to the challenge:</b><br /><ul class="ui list"><li>What does it mean to be a truly agile organization? Is it speed; is it flexibility, or process control?  Can we learn from other industries – in Silicon Valley, software companies, and a whole new set of entrants into an already-crowded auto industry?  </li><li>How do we use &#147big data&#148 to solve problems?</li><li>How can we balance the lure of artificial intelligence with retraining our current workforce?  How do we attract and retain the best and brightest for the auto industry?</li><li>Is &#147company hopping&#148 a symptom of a frustrated generation, or are skills increasingly portable and therefore in the hands of those who possess the most unique skills?</li><li>And more!</li></ul></div>',
@@ -459,7 +459,7 @@
 
       var tmpNewCard = {
         "ctl": "cardfull",
-        "classes": "orange raised tall",
+        "classes": "blue raised tall",
         centered: true,
         onClick: {
           run: "action",

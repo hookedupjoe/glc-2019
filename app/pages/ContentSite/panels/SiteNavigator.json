@@ -9,15 +9,13 @@
     "group": "site-outline",
     "item": "",
     "color": "black",
-    "content": [
-      {
+    "content": [{
       "ctl": "tbl-ol-node",
       "name": "welcome",
       "details": "Welcome",
       "level": 2,
       "color": "black",
-      "content": [
-        {
+      "content": [{
         "ctl": "tbl-ol-node",
         "name": "about",
         "details": "GLC: By Invitation Only",
@@ -27,23 +25,23 @@
         "item": "about"
       },
         {
-        "ctl": "tbl-ol-node",
-        "name": "sponsors",
-        "details": "Sponsors",
-        "meta": "<i class='ui icon right arrow'>",
-        "type": "page",
-        "group": "site-outline",
-        "item": "sponsors"
-      },
+          "ctl": "tbl-ol-node",
+          "name": "sponsors",
+          "details": "Sponsors",
+          "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+          "group": "site-outline",
+          "item": "sponsors"
+        },
         {
-        "ctl": "tbl-ol-node",
-        "name": "committees",
-        "details": "Committees",
-        "meta": "<i class='ui icon right arrow'>",
-        "type": "page",
-        "group": "site-outline",
-        "item": "committees"
-      }]
+          "ctl": "tbl-ol-node",
+          "name": "committees",
+          "details": "Committees",
+          "meta": "<i class='ui icon right arrow'>",
+          "type": "page",
+          "group": "site-outline",
+          "item": "committees"
+        }]
     },
 
       {
@@ -68,7 +66,7 @@
             "name": "speakers",
             "details": "Look Who&rsquo;s Talking",
             "meta": "<i class='ui icon right arrow'>",
-          "type": "page",
+            "type": "page",
             "group": "site-outline",
             "item": "speakers",
             "color": "blue"
@@ -78,7 +76,7 @@
             "name": "leadership",
             "details": "Private Discussions",
             "meta": "<i class='ui icon right arrow'>",
-          "type": "page",
+            "type": "page",
             "group": "site-outline",
             "item": "leadership",
             "color": "blue"
@@ -106,7 +104,7 @@
             "name": "ride-drive",
             "details": "Ride & Drive",
             "meta": "<i class='ui icon right arrow'>",
-          "type": "page",
+            "type": "page",
             "group": "site-outline",
             "item": "ride-drive",
             "color": "blue"
@@ -116,7 +114,7 @@
             "name": "networking",
             "details": "Interesting Things to Do",
             "meta": "<i class='ui icon right arrow'>",
-          "type": "page",
+            "type": "page",
             "group": "site-outline",
             "item": "networking",
             "color": "blue"
@@ -144,7 +142,7 @@
             "name": "dining",
             "details": "Where to Dine",
             "meta": "<i class='ui icon right arrow'>",
-          "type": "page",
+            "type": "page",
             "group": "site-outline",
             "item": "dining",
             "color": "blue"
@@ -154,13 +152,12 @@
             "name": "dress",
             "details": "What to Wear & Where",
             "meta": "<i class='ui icon right arrow'>",
-          "type": "page",
+            "type": "page",
             "group": "site-outline",
             "item": "dress",
             "color": "blue"
           }]
-      }
-      ,
+      },
       {
         "ctl": "tbl-ol-node",
         "type": "charter",
@@ -183,7 +180,7 @@
             "name": "travel-details",
             "details": "Other Ways to Get There",
             "meta": "<i class='ui icon right arrow'>",
-          "type": "page",
+            "type": "page",
             "group": "site-outline",
             "item": "travel-details",
             "color": "blue"
@@ -193,13 +190,10 @@
         "ctl": "tbl-ol-node",
         "type": "activities",
         "report": "activities",
-        "details": "Register Now",
+        "details": "Registration (opens June 19)",
         "level": 2,
         "color": "black",
-        "content": [
-                    
-
-          {
+        "content": [{
           "ctl": "tbl-ol-node",
           "name": "pricing",
           "details": "Cost & Expenses",
@@ -209,9 +203,7 @@
           "item": "pricing",
           "color": "blue"
         }]
-      }
-
-      ]
+      }]
   }],
   "options": {
     "padding": false,
