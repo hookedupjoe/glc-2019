@@ -590,6 +590,18 @@ ThisPage.closeInitiaLoader = function() {
 
 var contentIndex = {};
 
+actions.gotoContent = gotoContent;
+function gotoContent(theParams, theTarget){
+  var tmpParams = ThisApp.getActionParams(theParams, theTarget, ['name']);
+  var tmpName = tmpParams.name || '';
+  if( tmpName ){
+    openContentPage(tmpName);
+  } else {
+    console.warn("No name provided for content");
+  }
+}
+
+
 actions.openContentPage = openContentPage;
 function openContentPage(theName) {
   if (ThisPage.activeContent === theName) {

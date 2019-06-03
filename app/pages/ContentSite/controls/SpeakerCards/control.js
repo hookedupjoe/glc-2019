@@ -282,7 +282,7 @@
         classes: "ui segment basic slim larger",
         name: "top-message",
         basic: true,
-        text: "Limited to 20 attendees per session, each one-hour lunch offers candid discussions with noted industry leaders to address issues and challenges. Each attendee will have the opportunity to ask a question, with attendance limited to one person per company per session.<br /><br />Registration will take place onsite on Thursday, October 10 from 5:00 - 5:30 p.m. in the Cameo Ballroom. Spaces will go fast, so think about which session you want to attend, and sign up as soon as you arrive!<br /><br /><i>Note: Gold and Silver sponsors are granted pre-registration as part of their sponsorship.</i>"
+        text: "Registration will take place onsite on Thursday, October 10 from 5:00 - 5:30 p.m. in the Cameo Ballroom. Spaces will go fast, so think about which session you want to attend, and sign up as soon as you arrive!<br /><br /><i>Note: Gold and Silver sponsors are granted pre-registration as part of their sponsorship.</i>"
       },
 
       {
